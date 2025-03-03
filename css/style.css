@@ -1,3 +1,15 @@
 body {
     font-family: "Open Sans", sans-serif;
 }
+
+h1 {
+    font-size: 80px; 
+    font-weight: 600;
+     color: #192b59;
+}
+
+.nav {
+    font-size: 12px;
+    font-weight: 800;
+    color: #6e7ea9;
+}
