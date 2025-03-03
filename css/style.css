@@ -24,3 +24,15 @@ h1 {
     font-weight: 400;
     background-color: #1085e4;
 }
+
+.grid h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #192b59;
+}
+
+.grid h2 span {
+    font-size: 14px;
+    font-weight: 800;
+    color: #1085e4;
+}
