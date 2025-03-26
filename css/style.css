@@ -10,19 +10,82 @@ a {
 }
 
 h1 {
-    font-size: 80px; 
+    font-size: 80px;
     font-weight: 600;
-     color: #192b59;
+    letter-spacing: -2.5px;
+    color: #192b59;
+    line-height: 1.1;
+    max-width: 540px;
+    margin-bottom: 65px;
+}
+
+.title-h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+    line-height: 1.2;
+    letter-spacing: -1.5px;
+}
+
+.title-h2 span {
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+    color: #1085e4;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 14px;
+}
+
+.title-40 {
+    font-size: 40px;
+    letter-spacing: -1.1px;
+    font-weight: 600;
+    color: #192b59;
+    line-height: 1.2;
+}
+
+.title-40 span {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 20px;
+    letter-spacing: 3.5px;
+    font-weight: 800;
+    color: #1085e4;
+    text-transform: uppercase;
+}
+
+.page-stat .title-h2, .page-screen .title-h2 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.page-stat .title-h2 {
+    max-width: 500px;
+}
+
+.wrap {
+    max-width: 1110px;
+    margin: 0 auto;
+
 }
 
 .nav {
     font-size: 12px;
     font-weight: 700;
-    color: #6e7ea9;
     text-transform: uppercase;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+}
+
+.nav>li {
+    padding: 0 15px;
+}
+
+.nav-item  {
+    color: #6e7ea9;
 }
 
 .btn-primary{
@@ -106,5 +169,67 @@ margin-left: 15px;
     color: #1085e4; 
 }
 
+.list-stat {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 76px;
+}
 
+.list-stat>li {
+    font-size: 12px;
+    font-weight: 700;
+    color: #1085e4;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2.7px;
+}
 
+.list-stat>li>span {
+    display: block;
+    font-size: 60px;
+    color: #bacbdc;
+    margin-bottom: 20px;
+    letter-spacing: 0;
+}
+
+.screen {
+    margin-top: 36px;
+    margin-bottom: -7px ;
+}
+
+.box-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-price-item {
+    background-color: #f5faff;
+}
+
+.box-price-item.active {
+    background-color: #192b59;
+    color: #fff;
+}
+
+.box-price-item ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* PAGE */
+
+.page-stat, .page-screen {
+    background-color: #edf6ff;
+}
+
+.page-stat {
+    padding: 116px 0 96px 0;
+}
+
+.page-plan, .page-screen {
+    text-align: center;
+}
+.page-screen {
+    padding: 116px 0 0 0;
+}
