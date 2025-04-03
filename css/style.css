@@ -64,6 +64,16 @@ h1 {
     max-width: 500px;
 }
 
+.page-subscribe .title-h2 {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.page-subscribe .title-h2 span {
+    font-size: 14px;
+}
+
 .wrap {
     max-width: 1110px;
     margin: 0 auto;
@@ -353,7 +363,7 @@ margin-left: 15px;
     height: 100%;
     background-image: url(../img/triangle.svg);
     position: absolute;
-    top: 0;btn
+    top: 0;
     right: 0;
 }
 
@@ -361,6 +371,52 @@ margin-left: 15px;
     display: none;
 }
 
+.box-subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-subscribe-text {
+    font-size: 18px;
+    max-width: 437px;
+}
+
+.box-subscribe-user {
+    position: relative;
+}
+
+.box-subscribe-child {
+    flex-basis: 49%;
+}
+
+.box-subscribe-user input {
+    border: 2px solid #3f5cb1;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 45px;
+    background-color: transparent;
+    padding: 25px 230px 25px 37px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.box-subscribe-user .btn-primary {
+    position: absolute;
+    top: 9px;
+    right: 8px;
+    padding: 17px 50px;
+}
+
+.box-subscribe-user input:focus, .box-subscribe-user .btn-primary {
+    outline: none;
+}
+
+.box-subscribe-user input::-webkit-input-placeholder {color: #b1c3ee;}
+.box-subscribe-user input::-moz-placeholder          {color: #b1c3ee;}
+.box-subscribe-user input:-moz-placeholder           {color: #b1c3ee;}   
+.box-subscribe-user input:-ms-input-placeholder      {color: #b1c3ee;}
 /* PAGE */
 
 .page-header {
@@ -391,4 +447,17 @@ margin-left: 15px;
 }
 .page-screen {
     padding: 116px 0 0 0;
+}
+
+.page-subscribe {
+    padding: 25px 0 28px 0;
+    color: #fff;
+    background: rgba(10,32,144,1);
+    background: -moz-linear-gradient(-45deg, rgba(10,32,144,1) 0%, rgba(35,120,205,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(10,32,144,1)), color-stop(100%, rgba(35,120,205,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(10,32,144,1) 0%, rgba(35,120,205,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(10,32,144,1) 0%, rgba(35,120,205,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(10,32,144,1) 0%, rgba(35,120,205,1) 100%);
+    background: linear-gradient(135deg, rgba(10,32,144,1) 0%, rgba(35,120,205,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a2090', endColorstr='#2378cd', GradientType=1 );
 }
