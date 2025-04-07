@@ -224,6 +224,45 @@ margin-left: 15px;
     height: 69px;
 }
 
+ .grid {
+    display: grid;
+    grid-template-areas: "a b c" "d b c" "d f g" "e f g" "e h h";
+    max-width: 1110px;
+    margin: 0 auto;   
+} 
+
+.grid-title {
+    grid-area: a;
+}
+
+.grid-item-1 {
+    grid-area: b;
+}
+
+.grid-item-2 {
+    grid-area: c;
+}
+
+.grid-item-3 {
+    grid-area: d;
+}
+
+.grid-item-4 {
+    grid-area: e;
+}
+
+.grid-item-5 {
+    grid-area: f;
+}
+
+.grid-item-6 {
+    grid-area: g;
+}
+
+.grid-text {
+    grid-area: h;
+}
+
 .grid h2{
     font-size: 40px;
     font-weight: 700;
@@ -237,16 +276,64 @@ margin-left: 15px;
     display: block;
 }
 
+.grid-item {
+    text-align: center;
+    box-shadow: 0 0 5px #f4f4f4;
+}
+
 .grid-item h3 {
     font-size: 20px;
     font-weight: 600;
     color: #192b59;
+    margin-bottom: 18px;
 }
 
 .grid-item a {
     font-size: 14px;
     font-weight: 600;
     color: #1085e4; 
+}
+
+.grid-icon {
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto 36px;
+}
+
+.grid-icon-1 {
+    background-image: url(../img/icon-1.png);
+    width: 73px;
+    height: 79px;
+}
+
+.grid-icon-2 {
+    background-image: url(../img/icon-2.png);
+    width: 89px;
+    height: 85px;
+}
+
+.grid-icon-3 {
+    background-image: url(../img/icon-3.png);
+    width: 79px;
+    height: 82px;
+}
+
+.grid-icon-4 {
+    background-image: url(../img/icon-4.png);
+    width: 102px;
+    height: 92px;
+}
+
+.grid-icon-5 {
+    background-image: url(../img/icon-5.png);
+    width: 85px;
+    height: 90px;
+}
+
+.grid-icon-6 {
+    background-image: url(../img/icon-6.png);
+    width: 100px;
+    height: 87px;
 }
 
 .list-stat {
